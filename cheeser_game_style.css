@@ -1,0 +1,195 @@
+body
+{
+	font-family: Verdana;	
+}
+#BackZone
+{
+	background: black url("../games_resources/Cheeser/images/floor_pixel_art_2.png") repeat;	
+	position: absolute;
+	left: 0px;
+	top: 30px;
+	z-index: 0;
+	height: 970px;
+	width: 1000px;
+}
+#GameContainer
+{
+	background: black url("../games_resources/Cheeser/images/floor_pixel_art_2.png") repeat;
+}
+
+.hidden_imgs
+{
+	display: none;
+}
+
+#GameRating
+{
+	position: absolute;
+	top: 250px;
+	left: 150px;
+	z-index: 1000;
+	display: none;
+	background-color: #fcfaf5;
+	border-top: 5px solid black;
+	border-bottom: 5px solid black;
+}
+
+#GameStats
+{
+	text-align: center;
+	position: fixed;
+	z-index: 2000;
+}
+
+#GameMenu
+{
+	position: absolute;
+	left: 500px;
+	top: 150px;
+	width: 400px;
+	height: 200px;
+	background: #404d59 url("../games_resources/Cheeser/images/floor_pixel_art_2.png") repeat;
+	border: 4px solid black;
+	z-index: 1000;
+	display: none;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.5);
+}
+
+#GameHeader
+{
+	width: 100%;
+	height: 40%;
+	font-size: 230%;
+	border-bottom: 1px solid white;	
+}
+
+#GameHeaderText
+{
+	margin: 0 auto;
+}
+
+#SurvivalGame
+{
+	cursor: pointer;
+	border-bottom: 1px solid white;		
+	width: 100%;
+	height: 30%;
+	transition: background-color 1s;
+}
+
+#SurvivalGame:hover
+{
+	background-color: green;
+	opacity: 0.5;
+	transition: background-color 1s opacity 1s;
+}
+
+#LevelGame
+{
+	cursor: pointer;
+	width: 100%;
+	height: 30%;
+}
+
+#LevelGame:hover
+{
+	background-color: green;
+	opacity: 0.5;
+	transition: background-color 1s opacity 1s;
+}
+#GameResult
+{
+	
+	position: absolute;
+	left: 25%;
+	top: 20%;
+	width: 400px;
+	height: 300px;
+	background: #404d59 url("../games_resources/Cheeser/images/floor_pixel_art_2.png") repeat;
+	border: 2px soli black;
+	z-index: 1000;
+	display: none;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+#ResultBlock
+{
+	width: 100%;
+	height: 40%;
+	background-color: white;
+}
+#ResultStatus
+{
+	width: 100%;
+	height: 30%;
+	background-color: green;
+}
+#ResultBlock #RatsKilledResult
+{
+	width: 100%;
+	height: 50%;
+	background-color: #f8f4ff;
+}
+#ResultBlock #TimeResult
+{
+	width: 100%;
+	height: 50%;
+	background-color: #f8f4ff;
+}
+
+#RestartButton
+{
+	height: 30%;
+	width: 100%;
+	background-color: #e6ecf5;
+	cursor: pointer;
+
+}
+
+.Text
+{
+	font-size: 200%; 
+	text-align: center;
+	position: relative;
+}
+
+.RatHealthDiv
+{
+	position: absolute;
+	z-index: 10;
+	height: 10px;
+	background-color: red;
+}
+.FloorHoleHealthDiv
+{
+	position: absolute;
+	z-index: 10;
+	height: 10px;
+	background-color: yellow;
+}
+
+.StatsDivs
+{
+	height: 100%;
+	width: 25%;
+	float: left;
+	background-color: #f5f1cb;
+}
+#RightBigRatImageDiv
+{
+	position:absolute;
+	height: 232px;
+	width: 300px;
+	left: -10px;
+	background: url("../games_resources/Cheeser/images/Right_Big_Rat_Image.gif");	
+	z-index: 150;
+}
+#LeftBigRatImageDiv
+{
+	position:absolute;
+	height: 155px;
+	width: 170px;
+	left: 830px;
+	background: url("../games_resources/Cheeser/images/Left_Big_Rat_Image.gif");	
+	z-index: 150;
+}
